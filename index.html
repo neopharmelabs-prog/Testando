@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Safe Pro Labs - Peptide Based Therapeutics</title>
+  <meta name="description" content="Pioneering innovation in peptide based therapeutics. Produtos: Tirzepatide, Retatrutide, Semaglutide." />
+  <style>
+    /* Reset simples */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height: 1.5; color: #111; background: #fff; }
+    a { color: inherit; text-decoration: none; }
+    header { display: flex; align-items: center; justify-content: space-between; padding: 20px; border-bottom: 1px solid #eee; }
+    .logo { display: flex; align-items: center; gap: 12px; }
+    .logo img { height: 42px; width: auto; display: block; }
+    nav ul { display: flex; gap: 18px; list-style: none; align-items: center; }
+    nav a { font-weight: 600; font-size: 14px; padding: 6px 8px; border-radius: 6px; transition: background .18s ease; }
+    nav a:hover { background: #f6f6f8; }
+
+    /* Hero */
+    .hero { display: grid; grid-template-columns: 1fr 420px; gap: 28px; align-items: center; padding: 56px 20px; max-width: 1200px; margin: 0 auto; }
+    .hero h1 { font-size: 34px; letter-spacing: -0.5px; margin-bottom: 12px; }
+    .hero p { color: #444; margin-bottom: 18px; font-size: 16px; max-width: 58ch; }
+    .cta { display: inline-block; padding: 12px 18px; border-radius: 10px; background: #0b6cff; color: white; font-weight: 700; }
+
+    .hero-card { background: #fbfbff; border-radius: 12px; padding: 18px; box-shadow: 0 6px 18px rgba(11,108,255,0.06); }
+    .hero-card h3 { margin-bottom: 6px; font-size: 18px; }
+    .hero-card p { color: #555; font-size: 14px; }
+
+    /* Sections */
+    section { padding: 36px 20px; max-width: 1200px; margin: 0 auto; }
+    .about { display: grid; grid-template-columns: 1fr 360px; gap: 28px; align-items: center; }
+    .about p { color: #444; font-size: 15px; }
+
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 18px; margin-top: 20px; }
+    .feature { background: #fff; border: 1px solid #eee; padding: 18px; border-radius: 10px; text-align: center; }
+    .feature h4 { margin-bottom: 8px; font-size: 15px; }
+    .feature p { color: #666; font-size: 13px; }
+
+    /* Products */
+    .products-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-top: 18px; }
+    .product { border: 1px solid #e8e8ee; border-radius: 12px; overflow: hidden; background: #fff; display: flex; flex-direction: column; }
+    .product img { width: 100%; height: 140px; object-fit: cover; display: block; }
+    .product .body { padding: 14px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+    .product .title { font-weight: 700; }
+    .product .desc { color: #666; font-size: 13px; flex: 1; }
+    .product .actions { display: flex; gap: 10px; margin-top: 10px; }
+    .btn-outline { border: 1px solid #0b6cff; color: #0b6cff; padding: 8px 12px; border-radius: 8px; font-weight: 700; }
+    .btn-primary { background: #0b6cff; color: white; padding: 8px 12px; border-radius: 8px; font-weight: 700; }
+
+    /* Footer */
+    footer { border-top: 1px solid #eee; padding: 20px; text-align: center; color: #666; font-size: 14px; }
+
+    /* Responsivo */
+    @media (max-width: 860px) {
+      .hero { grid-template-columns: 1fr; padding: 32px 16px; }
+      .about { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="https://safeprolabs.com/wp-content/uploads/2024/08/safepro-logo.png" alt="Safe Pro Labs logo" onerror="this.style.display='none'">
+      <div>
+        <strong>Safe Pro Labs</strong>
+        <div style="font-size:12px;color:#666">Pioneering peptide based therapeutics</div>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#products">Produtos</a></li>
+        <li><a href="#patients">Recursos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Apresentação">
+      <div>
+        <h1>Pioneering Innovation in Peptide Based Therapeutics</h1>
+        <p>Na Safe Pro Labs nós redefinimos o futuro da saúde por meio de ciência de ponta, responsabilidade ética e profundo conhecimento em peptídeos. Entregamos produtos baseados em evidências para melhorar a vida de pacientes.</p>
+        <a class="cta" href="#products">Conheça nossos produtos</a>
+
+        <div style="margin-top:22px; display:flex; gap:12px;">
+          <div class="hero-card">
+            <h3>Scientific Excellence</h3>
+            <p>Fundamentados em ciência revisada por pares e ensaios clínicos globais.</p>
+          </div>
+          <div class="hero-card">
+            <h3>Ethical Manufacturing</h3>
+            <p>Ambientes estéreis e controles rigorosos de qualidade.</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div style="border-radius:12px; overflow:hidden;">
+          <img src="https://images.unsplash.com/photo-1581091012184-7d4d2d13b0a0?q=80&w=1200&auto=format&fit=crop" alt="Laboratory" style="width:100%; height:360px; object-fit:cover; display:block">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about" aria-label="Sobre">
+      <div>
+        <h2>About Us</h2>
+        <p>Safe Pro Labs é uma empresa biofarmacêutica avançada especializada em terapêuticos baseados em peptídeos. Com presença global e capacidade de P&D de alto nível, entregamos soluções seguras e documentadas para saúde metabólica. Nossa linha de produtos foca em moléculas como Tirzepatide, Semaglutide e Retatrutide.</p>
+
+        <div class="features" aria-hidden="false">
+          <div class="feature">
+            <h4>Transparência</h4>
+            <p>Documentação completa e monitoramento de segurança.</p>
+          </div>
+          <div class="feature">
+            <h4>Paciente em primeiro lugar</h4>
+            <p>Acesso, educação e confiabilidade para quem precisa.</p>
+          </div>
+          <div class="feature">
+            <h4>Pesquisa e desenvolvimento</h4>
+            <p>Equipe dedicada a resultados clínicos comprovados.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside style="background:#fafafa; padding:18px; border-radius:12px;">
+        <h3>Designing Well Being</h3>
+        <p>From the inside out</p>
+      </aside>
+    </section>
+
+    <section id="products" aria-label="Produtos">
+      <h2>Obesity Medications</h2>
+      <p style="color:#555; margin-top:8px">Explore nossos produtos principais</p>
+
+      <div class="products-grid">
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1580281657527-3c1b2b8322a2?q=80&w=1200&auto=format&fit=crop" alt="Tirzepatide">
+          <div class="body">
+            <div class="title">Tirzepatide 60mg</div>
+            <div class="desc">Peptídeo para suporte metabólico e controle de peso. Consulte documentação e ficha técnica.</div>
+            <div class="actions">
+              <a class="btn-outline" href="#">Ver mais</a>
+              <a class="btn-primary" href="#contact">Fale conosco</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1582719478188-9f7d6cbd0f3f?q=80&w=1200&auto=format&fit=crop" alt="Retatrutide">
+          <div class="body">
+            <div class="title">Retatrutide 40mg</div>
+            <div class="desc">Molécula em desenvolvimento com foco em eficácia metabólica. Informações clínicas disponíveis mediante contato.</div>
+            <div class="actions">
+              <a class="btn-outline" href="#">Ver mais</a>
+              <a class="btn-primary" href="#contact">Fale conosco</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1584438781810-15ff7f2b5f29?q=80&w=1200&auto=format&fit=crop" alt="Semaglutide">
+          <div class="body">
+            <div class="title">Semaglutide 15mg</div>
+            <div class="desc">Opção amplamente estudada para controle de peso. Fornecemos material técnico e suporte ao paciente.</div>
+            <div class="actions">
+              <a class="btn-outline" href="#">Ver mais</a>
+              <a class="btn-primary" href="#contact">Fale conosco</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product">
+          <img src="https://images.unsplash.com/photo-1581091870622-6b7b6bfa8f3f?q=80&w=1200&auto=format&fit=crop" alt="Tirzepatide 30mg">
+          <div class="body">
+            <div class="title">Tirzepatide 30mg</div>
+            <div class="desc">Variante de dosagem para regimes clínicos específicos. Consulte o time de suporte para mais detalhes.</div>
+            <div class="actions">
+              <a class="btn-outline" href="#">Ver mais</a>
+              <a class="btn-primary" href="#contact">Fale conosco</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="patients" aria-label="Recursos para pacientes">
+      <h2>Patient resources</h2>
+      <p>Materiais de apoio e guias para viver com obesidade. Inclui educação sobre tratamento e materiais de segurança.</p>
+      <div style="display:flex; gap:12px; margin-top:12px; flex-wrap:wrap;">
+        <a class="btn-outline" href="#">Truth About Weight</a>
+        <a class="btn-outline" href="#">Support</a>
+      </div>
+    </section>
+
+    <section id="contact" aria-label="Contato">
+      <h2>Contato</h2>
+      <p>Para informações técnicas, parcerias ou suporte, entre em contato com nossa equipe</p>
+      <form style="margin-top:12px; display:grid; gap:10px; max-width:640px;">
+        <input placeholder="Nome" style="padding:10px; border-radius:8px; border:1px solid #e5e5ee" />
+        <input placeholder="E-mail" style="padding:10px; border-radius:8px; border:1px solid #e5e5ee" />
+        <textarea placeholder="Mensagem" rows="4" style="padding:10px; border-radius:8px; border:1px solid #e5e5ee"></textarea>
+        <button type="submit" class="btn-primary" style="width:160px">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <div>© Safe Pro Labs. Estrutura reduzida para demonstração.</div>
+    <div style="margin-top:6px; font-size:13px; color:#888">Conteúdo baseado na estrutura do site original. Referência: safeprolabs.com</div>
+  </footer>
+
+</body>
+</html>
