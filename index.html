@@ -4,47 +4,48 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Safe Pro Labs® — Peptide Therapeutics</title>
-  <meta name="description" content="Safe Pro Labs is a peptide therapeutics company focused on scientific excellence, ethical manufacturing and patient centered care." />
+  <meta name="description" content="Safe Pro Labs is a peptide therapeutics company focused on scientific innovation, ethical manufacturing and patient-centered solutions." />
   <style>
-    /* Simple responsive styling */
     :root{
       --bg:#0f1720;
       --card:#0b1220;
       --muted:#9aa4b2;
       --accent:#6fc3a3;
       --white:#ffffff;
-      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
     }
-    html,body{height:100%;margin:0;background:linear-gradient(180deg,#071021 0%, #0d1724 100%);color:var(--white);}
-    .container{max-width:1100px;margin:0 auto;padding:28px;}
-    header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:28px}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#071021, #0d1724);color:var(--white)}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}
     .logo{display:flex;align-items:center;gap:12px}
-    .logo img{height:46px;width:auto;border-radius:6px;background:#fff; padding:4px}
+    .logo img{height:46px;width:auto;border-radius:6px;background:#fff;padding:4px}
     nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-weight:600}
     .hero{display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:center;margin-bottom:36px}
-    .hero h1{font-size:32px;margin:0 0 12px 0;line-height:1.05}
-    .hero p{color:var(--muted);margin:0 0 18px 0}
+    .hero h1{font-size:32px;margin:0 0 12px;line-height:1.05}
+    .hero p{color:var(--muted);margin:0 0 18px}
     .cta{display:flex;gap:12px}
     .btn{background:var(--accent);color:#042222;padding:12px 16px;border-radius:8px;text-decoration:none;font-weight:700}
     .btn.secondary{background:transparent;border:1px solid rgba(255,255,255,0.08);color:var(--white)}
     .card{background:rgba(255,255,255,0.02);padding:18px;border-radius:10px}
     .products{display:flex;flex-wrap:wrap;gap:16px}
     .product{flex:1 1 220px;background:rgba(255,255,255,0.03);padding:14px;border-radius:10px}
-    .product h4{margin:6px 0 6px 0}
+    .product h4{margin:6px 0}
     .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0}
     .feature{background:rgba(255,255,255,0.02);padding:18px;border-radius:10px;text-align:center}
     footer{margin-top:40px;padding:26px 0;border-top:1px solid rgba(255,255,255,0.03);color:var(--muted);font-size:14px}
-    @media (max-width:880px){ .hero{grid-template-columns:1fr} .grid-3{grid-template-columns:1fr} }
+    @media(max-width:880px){.hero{grid-template-columns:1fr}.grid-3{grid-template-columns:1fr}}
   </style>
 </head>
+
 <body>
   <div class="container">
     <header>
       <div class="logo">
-        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='40'><rect width='100' height='40' fill='%236fc3a3'/><text x='10' y='26' font-family='Arial' font-size='14' fill='white'>Safe Pro Labs</text></svg>" alt="Safe Pro Labs logo" />
+        <!-- Replace with your real logo -->
+        <img src="YOUR-LOGO.png" alt="Safe Pro Labs Logo">
         <div>
           <strong>Safe Pro Labs®</strong>
-          <div style="font-size:12px;color:var(--muted)">Pioneering peptide therapeutics</div>
+          <div style="font-size:12px;color:var(--muted)">Advanced Peptide Therapeutics</div>
         </div>
       </div>
       <nav>
@@ -56,98 +57,111 @@
     </header>
 
     <main>
+
+      <!-- HERO SECTION -->
       <section class="hero">
         <div>
-          <h1>Pioneering innovation in peptide based therapeutics</h1>
-          <p>At Safe Pro Labs we advance the future of health through rigorous science, ethical manufacturing, and focused peptide expertise. We design medicines that support safe and sustainable metabolic health.</p>
+          <h1>Innovation in Peptide Based Therapeutics</h1>
+          <p>Safe Pro Labs develops advanced peptide medicines with scientific rigor, global quality standards and patient oriented solutions.</p>
           <div class="cta">
-            <a class="btn" href="#products">Explore products</a>
-            <a class="btn secondary" href="#contact">Get support</a>
+            <a class="btn" href="#products">Explore Products</a>
+            <a class="btn secondary" href="#contact">Contact Us</a>
           </div>
 
-          <div style="margin-top:20px" class="card">
-            <h3>About us</h3>
-            <p style="color:var(--muted)">Safe Pro Labs is an advanced biopharmaceutical company specializing in peptide based therapeutics. We maintain global presence and state of the art research and manufacturing capability. Our product lines include tirzepatide, semaglutide and retatrutide formulated to meet high pharmaceutical standards.</p>
+          <div class="card" style="margin-top:20px">
+            <h3>About Us</h3>
+            <p style="color:var(--muted)">Safe Pro Labs is a biotechnology company specializing in peptide based therapeutics including tirzepatide, semaglutide and retatrutide. We focus on research, safety, quality control and pharmaceutical grade formulations.</p>
           </div>
         </div>
 
+        <!-- Replace with your real hero image -->
         <aside class="card">
-          <h3 style="margin-top:0">Featured medications</h3>
+          <h3 style="margin-top:0">Featured Products</h3>
+
           <div class="products" id="products">
             <div class="product">
-              <h4>Safe Pro Labs® Tirzepatide 60 mg</h4>
-              <p style="color:var(--muted)">Dual incretin therapy designed to support weight management and metabolic care. See product details for dosing and safety information.</p>
+              <h4>Tirzepatide 60 mg</h4>
+              <p style="color:var(--muted)">Dual incretin therapy designed for metabolic health support.</p>
             </div>
             <div class="product">
-              <h4>Safe Pro Labs® Retatrutide 40 mg</h4>
-              <p style="color:var(--muted)">Next generation peptide with investigational data for metabolic outcomes. Access comprehensive documentation before use.</p>
+              <h4>Retatrutide 40 mg</h4>
+              <p style="color:var(--muted)">Next generation multi agonist peptide for metabolic outcomes.</p>
             </div>
             <div class="product">
-              <h4>Safe Pro Labs® Semaglutide 15 mg</h4>
-              <p style="color:var(--muted)">GLP 1 receptor agonist for glycemic and weight management. Manufactured under strict sterile conditions.</p>
+              <h4>Semaglutide 15 mg</h4>
+              <p style="color:var(--muted)">GLP 1 receptor agonist manufactured under sterile conditions.</p>
             </div>
           </div>
         </aside>
       </section>
 
+      <!-- WHY CHOOSE SECTION -->
       <section id="why" style="margin-top:18px">
-        <h2 style="margin-bottom:10px">Why choose Safe Pro Labs</h2>
+        <h2>Why Choose Safe Pro Labs</h2>
         <div class="grid-3">
           <div class="feature">
-            <h4>Scientific excellence</h4>
-            <p style="color:var(--muted)">Grounded in peer reviewed science and global clinical research.</p>
+            <h4>Scientific Quality</h4>
+            <p style="color:var(--muted)">Research based formulations supported by global studies.</p>
           </div>
           <div class="feature">
-            <h4>Patient centered</h4>
-            <p style="color:var(--muted)">We provide access, education, and reliable product information.</p>
+            <h4>Patient Focused</h4>
+            <p style="color:var(--muted)">Education and guidance for medical professionals and patients.</p>
           </div>
           <div class="feature">
-            <h4>Ethical manufacturing</h4>
-            <p style="color:var(--muted)">Strict sterile conditions and full documentation ensure consistency.</p>
+            <h4>Ethical Manufacturing</h4>
+            <p style="color:var(--muted)">Sterile conditions and robust quality control.</p>
           </div>
         </div>
       </section>
 
+      <!-- PATIENT SUPPORT -->
       <section id="patients" style="margin-top:12px">
-        <h2>Patient resources</h2>
+        <h2>Patient Resources</h2>
         <div class="card" style="margin-top:12px">
-          <h3>Support for living with obesity</h3>
-          <p style="color:var(--muted)">We offer educational resources for patients and healthcare professionals. Consult your clinician before starting any medication. For product specific safety, dosing and monitoring please request the product dossier or contact our medical affairs team.</p>
-          <p><a class="btn" href="#contact">Request product documentation</a></p>
+          <h3>Support for Metabolic Health</h3>
+          <p style="color:var(--muted)">Access scientific information, safe use guidelines and product documentation. Always consult a licensed healthcare provider before initiating treatment.</p>
+          <p><a class="btn" href="#contact">Request Documentation</a></p>
         </div>
       </section>
 
+      <!-- CONTACT -->
       <section id="contact" style="margin-top:18px">
         <h2>Contact</h2>
+
         <div class="card" style="display:flex;flex-direction:column;gap:12px">
           <div>
-            <strong>General inquiries</strong>
+            <strong>General Inquiries</strong>
             <div style="color:var(--muted)">Email: info@safeprolabs.com</div>
           </div>
+
           <div>
-            <strong>Medical affairs</strong>
+            <strong>Medical Affairs</strong>
             <div style="color:var(--muted)">Email: medical@safeprolabs.com</div>
           </div>
+
           <div>
-            <strong>Address</strong>
-            <div style="color:var(--muted)">Headquarters, United States</div>
+            <strong>Headquarters</strong>
+            <div style="color:var(--muted)">United States</div>
           </div>
+
           <form style="display:flex;flex-direction:column;gap:10px;margin-top:8px;max-width:420px">
-            <input placeholder="Your name" style="padding:10px;border-radius:8px;border:0;background:#07121a;color:var(--white)" />
-            <input placeholder="Your email" style="padding:10px;border-radius:8px;border:0;background:#07121a;color:var(--white)" />
+            <input placeholder="Your name" style="padding:10px;border-radius:8px;border:0;background:#07121a;color:var(--white)">
+            <input placeholder="Your email" style="padding:10px;border-radius:8px;border:0;background:#07121a;color:var(--white)">
             <textarea placeholder="Message" rows="4" style="padding:10px;border-radius:8px;border:0;background:#07121a;color:var(--white)"></textarea>
-            <button type="button" class="btn">Send message</button>
+            <button type="button" class="btn">Send Message</button>
           </form>
         </div>
       </section>
+
     </main>
 
     <footer>
-      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
-        <div>© Safe Pro Labs® • All rights reserved</div>
-        <div style="color:var(--muted)">This page is a recreated layout and English translation based on the original Safe Pro Labs website.</div>
+      <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px">
+        <div>© Safe Pro Labs® All rights reserved</div>
+        <div style="color:var(--muted)">This page is a recreated English version.</div>
       </div>
     </footer>
+
   </div>
 </body>
 </html>
